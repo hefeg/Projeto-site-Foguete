@@ -1,0 +1,151 @@
+.container{
+    width: auto;
+    height: auto;
+    background-color: #fdfafa;
+}
+
+.bar{
+    width: auto;
+    height: 25px;
+    background-color: rgb(117, 16, 143);
+    margin-top: px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 252, 249);
+    padding-left: 750px;
+    padding-top: 4px;
+    
+
+}
+
+body{
+    background-color: rgb(117, 16, 143);
+
+}
+
+* { margin: 0; padding: 0; }
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    position: fixed;
+    
+}
+
+.slider li {
+    list-style: none;
+  position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 500px;;
+    width: 1350px;
+    vertical-align: top;
+    margin-top: -15px;
+
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    margin-left: 645px;
+    
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.Meio{
+width: 1350px;
+height: 500px;
+background: rgb(255, 251, 251);
+position: absolute;
+margin-top: 500px;
+
+}
+
+.part1{
+  
+    width: 500px;
+    height: 310px;
+    margin-top: 0px;
+    margin-left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-top: blanchedalmond;
+    border-left: blanchedalmond;
+    position: relative;
+    
+    
+}
+
+#fog2{
+    width: 300px;
+    height: 280px;
+    
+    position: static;
+    margin-top: -110px;
+    margin-left: 800px;
+    position: relative;
+
+}
+#fog1{
+    position: absolute;
+    margin-left: -1100px;
+    margin-top: 45px;
+}
+.branco{
+    background-color: white;
+    width: 1350px;
+    height: 25px;
+}
+.footer{
+
+    
+    width: 1350px;
+    height: 150px;
+    background-color: rgb(117, 16, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 252, 249);
+    text-align: center;
+    padding-top: 50px;
+    font-stretch: ultra-expanded;
+
+
+
+
+
+}
